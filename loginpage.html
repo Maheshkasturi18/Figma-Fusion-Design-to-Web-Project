@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/49216b763a.js" crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <script src="index.js"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- header  -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid mx-5 px-3 ">
+                <img src="images/logo.png" alt="" width="162.57px" height="24px">
+
+                <div class="mx-auto">
+
+                    <form class="d-flex " role="search">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="border-0 bg-transparent fx-14 fw-500" type="search"
+                            placeholder="Search for your favorite groups in ATG" aria-label="Search">
+
+                    </form>
+                </div>
+
+                <!-- <div class="dropdown onclick-login-hide">
+                    <button class="btn btn-secondary bg-transparent border-0 dropdown-toggle fs-6 fw-500 lh-21 black-2E"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Create account.
+                        <span class="blue-2F">It’s free!</span>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item ">Account</a>
+                        </li>
+                        <li>
+                            <span onclick="hideSignin()" class="dropdown-item   cursor-pointer ">Login</span>
+                        </li>
+                        <li>
+                            <span onclick="hideSignup()" class="dropdown-item cursor-pointer ">Sign In</span>
+                        </li>
+
+                    </ul>
+                </div> -->
+
+                
+                <div class="img-name  align-items-center gap-4 onclick-login-show ">
+                    <img class="profile-img" src="images/profile-img1.png" alt="img" />
+                    <span class="fs-18-12 fw-bold text-black">Sarthak Kamra</span>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+
+
+
+    <!-- home section -->
+
+    <section class="home">
+        <div class="container h-100">
+            <div
+                class="home-sub-head py-3 mt-0 position-relative mt-0 z-1 align-item-center justify-content-between d-none w-100">
+                <i class="fa-solid fa-arrow-left"></i>
+                <button  class="secondary-btn bg-transparent text-white fw-500">
+                    Join Group
+                </button>
+            </div>
+
+
+            <div class="text-white h-100 d-flex flex-column align-items-start justify-content-end home-content">
+                <h2 class="mb-1 fs-36-17">Computer Engineering</h2>
+                <h6 class="m-0 fs-18-12">142,765 Computer Engineers follow this</h6>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- home section end -->
+
+
+
+    <!-- section data -->
+
+    <section class="section-data">
+        <div class="container">
+            <div class="sub-nav-frame d-flex justify-content-between align-items-center">
+                <ul class="m-0  list-unstyled nav-link-list">
+                    <li class="active-list">All Posts(32)</li>
+                    <li>Article</li>
+                    <li>Event</li>
+                    <li>Education</li>
+                    <li>Job</li>
+                </ul>
+
+
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary border-0 dropdown-toggle bg-ED px-3 py-2 text-dark fw-bold"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Write a Post
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button type="button"
+                        class=" btn border border-1 border-dark px-3 py-2 d-flex align-items-center justify-content-center gap-2">
+                        <img src="images/exit.png" alt="" />
+                        Leave Group
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-3 loge-person-wrap">
+                <div class="col-lg-8">
+                    <div class=" card mb-3">
+                        <img src="images/article-img.png" class="card-img-top article-img" alt="...">
+                        <div class="card-body py-4">
+                            <img src="images/✍️ Article.png" alt="" class="mb-2">
+
+
+                            <div class="article-heading d-flex justify-content-between align-items-start">
+                                <h3 class="fs-22-16 my-2">
+                                    What if famous brands had regular fonts? Meet RegulaBrands!
+                                </h3>
+                                <div class="dropdown d-flex justify-content-center align-items-start ">
+                                    <button
+                                        class="btn btn-secondary bg-transparent border-0 dropdown-toggle text-center"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="images/three-dots.png" alt="" />
+                                    </button>
+                                    <ul class="dropdown-menu three-dot-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Login</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sign up</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">more</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+
+                            <p class="card-text fs-19-14 mb-4">
+                                I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                            </p>
+                            <!-- <button class="secondary-btn2 w-100 bg-transparent text-danger fw-bold ">Visit Website</button> -->
+                            <div class="profile-frame d-flex align-items-center justify-content-between">
+                                <div class="img-name d-flex align-items-center gap-4">
+                                    <img class="profile-img" src="images/profile-img1.png" alt="img" />
+                                    <span class="fs-18-12 fw-bold text-black">Sarthak Kamra <br>
+
+                                        <div class="no-viesw d-none align-items-center justify-content-between gap-3">
+                                            <span class="fs-18-12 text-black">1.4k views</span>
+                                        </div>
+                                    </span>
+                                </div>
+
+                                <div class="views-share d-flex align-items-center gap-5 ">
+                                    <div class="no-viesw desk-flex align-items-center justify-content-between gap-3">
+                                        <img src="images/visibility_24px_outlined.png" alt="" />
+                                        <span class="fs-18-12 text-black">1.4k views</span>
+                                    </div>
+                                    <img src="images/share.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" card mb-3">
+                        <img src="images/education-img.png" class="card-img-top article-img" alt="...">
+                        <div class="card-body py-4">
+                            <img src="images/🔬️ Education.png" alt="" class="mb-2">
+
+
+                            <div class="article-heading d-flex justify-content-between align-items-start">
+                                <h3 class="fs-22-16 my-2">
+                                    Tax Benefits for Investment under National Pension Scheme launched by Government
+                                </h3>
+                                <div class="dropdown d-flex justify-content-center align-items-start ">
+                                    <button
+                                        class="btn btn-secondary bg-transparent border-0 dropdown-toggle text-center"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="images/three-dots.png" alt="" />
+                                    </button>
+                                    <ul class="dropdown-menu three-dot-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Login</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sign up</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">more</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+
+                            <p class="card-text fs-19-14 mb-4">
+                                I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                            </p>
+                            <!-- <button class="secondary-btn2 w-100 bg-transparent text-danger fw-bold ">Visit Website</button> -->
+                            <div class="profile-frame d-flex align-items-center justify-content-between">
+                                <div class="img-name d-flex align-items-center gap-4">
+                                    <img class="profile-img" src="images/profile-img2.png" alt="img" />
+                                    <span class="fs-18-12 fw-bold text-black">Sarah West <br>
+
+                                        <div class="no-viesw d-none align-items-center justify-content-between gap-3">
+                                            <span class="fs-18-12 text-black">1.4k views</span>
+                                        </div>
+                                    </span>
+                                </div>
+
+                                <div class="views-share d-flex align-items-center gap-5 ">
+                                    <div class="no-viesw desk-flex align-items-center justify-content-between gap-3">
+                                        <img src="images/visibility_24px_outlined.png" alt="" />
+                                        <span class="fs-18-12 text-black">1.4k views</span>
+                                    </div>
+                                    <img src="images/share.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class=" card mb-3">
+                        <img src="images/meetup-img.png" class="card-img-top article-img" alt="...">
+                        <div class="card-body py-4">
+                            <img src="images/🗓️ Meetup.png" alt="" class="mb-2">
+
+
+                            <div class="article-heading d-flex  justify-content-between align-items-start">
+                                <h3 class="fs-22-16 my-2">
+                                    Finance & Investment Elite Social Mixer @Lujiazui!
+                                </h3>
+                                <div class="dropdown d-flex justify-content-center align-items-start ">
+                                    <button
+                                        class="btn btn-secondary bg-transparent border-0 dropdown-toggle text-center"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="images/three-dots.png" alt="" />
+                                    </button>
+                                    <ul class="dropdown-menu three-dot-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Login</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sign up</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">more</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="date-location mb-3 d-flex align-items-center gap-5">
+                                <div class="date d-flex align-items-center justify-content-center gap-2">
+                                    <img src="images/calendar.png" alt="" />
+                                    <span class="fs-15-12">Fri, 12 Oct, 2018</span>
+                                </div>
+                                <div class="d-block justify-content-center align-items-center">
+                                    <img src="images/location.png" alt="" />
+                                    <span class="fs-15-12">Ahmedabad, India</span>
+                                </div>
+                            </div>
+
+
+                            <div class="d-grid gap-2 visit-btn">
+                                <button class="btn border border-1">Visit Website</button>
+                            </div>
+
+
+                            <div class="profile-frame d-flex align-items-center justify-content-between">
+                                <div class="img-name d-flex align-items-center gap-4">
+                                    <img class="profile-img" src="images/profile-img3.png" alt="img" />
+                                    <span class="fs-18-12 fw-bold text-black">Ronal Jones <br>
+
+                                        <div class="no-viesw d-none align-items-center justify-content-between gap-3">
+                                            <span class="fs-18-12 text-black">1.4k views</span>
+                                        </div>
+                                    </span>
+                                </div>
+
+                                <div class="views-share d-flex align-items-center gap-5 ">
+                                    <div class="no-viesw desk-flex align-items-center justify-content-between gap-3">
+                                        <img src="images/visibility_24px_outlined.png" alt="" />
+                                        <span class="fs-18-12 text-black">1.4k views</span>
+                                    </div>
+                                    <img src="images/share.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" card mb-3">
+
+                        <div class="card-body py-4">
+                            <img src="images/💼️ Job.png" alt="" class="mb-2">
+
+
+                            <div class="article-heading d-flex  justify-content-between align-items-start">
+                                <h3 class="fs-22-16 my-2">
+                                    Software Developer
+                                </h3>
+                                <div class="dropdown d-flex justify-content-center align-items-start ">
+                                    <button
+                                        class="btn btn-secondary bg-transparent border-0 dropdown-toggle text-center"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="images/three-dots.png" alt="" />
+                                    </button>
+                                    <ul class="dropdown-menu three-dot-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Login</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sign up</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">more</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="date-location mb-3 d-flex align-items-center gap-5">
+                                <div class="date d-flex align-items-center justify-content-center gap-2">
+                                    <img src="images/job-img.png" alt="" />
+                                    <span class="fs-15-12">Innovaccer Analytics Private Ltd.</span>
+                                </div>
+                                <div class="d-block justify-content-center align-items-center">
+                                    <img src="images/location.png" alt="" />
+                                    <span class="fs-15-12">Noida, India</span>
+                                </div>
+                            </div>
+
+
+                            <div class="d-grid gap-2 Timesjobs-btn ">
+                                <button class="btn border border-1  ">Apply on Timesjobs</button>
+                            </div>
+
+
+                            <div class="profile-frame d-flex align-items-center justify-content-between">
+                                <div class="img-name d-flex align-items-center gap-4">
+                                    <img class="profile-img" src="images/profile-img4.png" alt="img" />
+                                    <span class="fs-18-12 fw-bold text-black">Joseph Gray<br>
+
+                                        <div class="no-viesw d-none align-items-center justify-content-between gap-3">
+                                            <span class="fs-18-12 text-black">1.4k views</span>
+                                        </div>
+                                    </span>
+                                </div>
+
+                                <div class="views-share d-flex align-items-center gap-5 ">
+                                    <div class="no-viesw desk-flex align-items-center justify-content-between gap-3">
+                                        <img src="images/visibility_24px_outlined.png" alt="" />
+                                        <span class="fs-18-12 text-black">1.4k views</span>
+                                    </div>
+                                    <img src="images/share.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-4 column-2">
+
+                    <div
+                        class="location-input-box w-100 border-bottom  border-dark d-flex py-2 mb-2 align-items-center justify-content-between max-in-mb">
+                        <img src="images/location.png" alt="">
+                        <input class="fx-14 text-dark border-0 shadow-none  fw-bold" type="text"
+                            placeholder="Enter Location">
+                        <img src="images/baseline-edit-24px.png" id="edit" alt="edit">
+                    </div>
+
+                    <div class="varning-box d-flex align-items-center justify-content-center mt-4  gap-3">
+                        <img src="images/baseline-error_outline-24px.png" alt="img" class="mb-3">
+                        <span class="fx-12 varing-para">Your location will help us serve better and extend a
+                            personalised experience.</span>
+                    </div>
+
+                    <!-- group show -->
+                    <div class="d-flex mt-5 align-items-center justify-content-start ">
+                        <img src="images/thumb.png" alt="">
+                        <samp class="fx-18 text-uppercase ms-2 ">REcommended Groups</samp>
+                    </div>
+
+                    <div class=" pt-3">
+
+                        <div class="first-group-row d-flex align-items-center justify-content-between mt-3">
+                            <input type="checkbox" name="" id="follow">
+                            <div class="img-name d-flex align-items-center gap-2">
+                                <img class="grupflow-img" src="images/profile-img3.png" alt="img" />
+                                <span class="fx-14 text-black"> Leisure</span>
+                            </div>
+                            <label for="follow" class="lable"  onClick="changeText(1)">
+                                <h5 class="follow" id="element1">Follow</h5>
+                            </label>
+                        </div>
+
+                        <div class="first-group-row d-flex align-items-center justify-content-between mt-3">
+                            <input type="checkbox" name="" id="follow1">
+                            <div class="img-name d-flex align-items-center gap-2">
+                                <img class="grupflow-img" src="images/profile-img2.png" alt="img" />
+                                <span class="fx-14 text-black"> Sarah West</span>
+                            </div>
+                            <label for="follow1" class="lable1"  onClick="changeText(2)">
+                                <h5 class="follow1" id="element2">Follow</h5>
+                            </label>
+                        </div>
+
+                        <div class="first-group-row d-flex align-items-center justify-content-between mt-3">
+                            <input type="checkbox" name="" id="follow2">
+                            <div class="img-name d-flex align-items-center gap-2">
+                                <img class="grupflow-img" src="images/profile-img4.png" alt="img" />
+                                <span class="fx-14 text-black">Joseph Gray </span>
+                            </div>
+                            <label for="follow2" class="lable2"  onClick="changeText(3)">
+                                <h5 class="follow2" id="element3">Follow</h5>
+                            </label>
+                        </div>
+
+                        <div class="first-group-row d-flex align-items-center justify-content-between mt-3">
+                            <input type="checkbox" name="" id="follow3">
+                            <div class="img-name d-flex align-items-center gap-2">
+                                <img class="grupflow-img" src="images/profile-img2.png" alt="img" />
+                                <span class="fx-14 text-black">Sarah West </span>
+                            </div>
+                            <label for="follow3" class="lable3"  onClick="changeText(4)">
+                                <h5 class="follow3" id="element4">Follow</h5>
+                            </label>
+                        </div>
+
+                        <h5 class="see-more">See More...</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<!-- login page -->
+
+    <section>
+
+    </section>
+
+
+
+
+    <!-- bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
